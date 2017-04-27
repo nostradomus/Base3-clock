@@ -20,9 +20,19 @@ Well, lets not reveal everything right away :stuck_out_tongue_winking_eye:
 
 `...more on the way, be patient...`
 
+## Progress status
+
+ - [x] have a [crazy idea](#why)
+ - [ ] write the [functional specifications](#how)
+ - [ ] build a proof-of-concept prototype
+ - [ ] design and build the final [electronics](#electronics)
+ - [ ] write [code for the µ-controller](#µ-controller-code) respecting best-practices
+ - [ ] design and build a [state-of-the-art housing](#mechanical-construction)
+ - [ ] write an end-user manual
+
 ## Technical details
 
-### How to read the clock
+### How to read this clock
 
 Each line or column (depending on how you mount the clock) represents a part of the time :
 
@@ -33,7 +43,7 @@ line | description | values
 3 | seconds | 00-59
 
 Each element of the line represents one base-3 digit, with a different color for each possible value :
- - 0 : `gray`
+ - 0 : `light off`
  - 1 : `green`
  - 2 : `red`
 
@@ -43,7 +53,7 @@ The rightmost element is the least significant trit (yes trit, not bit).
 
 The leftmost element is the most significant trit.
 
-### Maths
+### The Maths, a bit of theory...
 
 The same way binary or decimal numeral systems are based on powers of their respective radices 2 and 10, the **ternary** system is based on powers of `3`.
 
