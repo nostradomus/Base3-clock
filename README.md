@@ -16,7 +16,9 @@ Anyhow, after having played around with javascript and css for the [web-version]
 
 ## How
 
-Well, lets not reveal everything right away :stuck_out_tongue_winking_eye:
+A first brainstorm storming session has resulted in a pretty complete [mindmap](docs/project-mindmap.mm) in the [docs folder](docs/).
+
+![Project mindmap](images/project-mindmap.png)
 
 `...more on the way, be patient...`
 
