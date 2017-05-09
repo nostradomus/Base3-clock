@@ -25,10 +25,10 @@ A first brainstorm storming session has resulted in a pretty complete [mindmap](
 ## Progress status
 
  - [x] have a [crazy idea](#why)
- - [ ] write the [functional specifications](#how)
- - [ ] build a proof-of-concept prototype
+ - [x] write the [functional specifications](#how)
+ - [x] build a proof-of-concept prototype
  - [ ] design and build the final [electronics](#electronics)
- - [ ] write [code for the µ-controller](#µ-controller-code) respecting best-practices
+ - [x] write [code for the µ-controller](#µ-controller-code) respecting best-practices
  - [ ] design and build a [state-of-the-art housing](#mechanical-construction)
  - [ ] write an end-user manual
 
