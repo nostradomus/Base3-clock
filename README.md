@@ -77,7 +77,7 @@ The ternary numbers for the clock will have maximum 4 digits (max 3 for the hour
 
 One of the key components to build a clock is a basic RTC circuit. This piece of hardware will give you the correct time, and continue counting every second. A crystal driven oscillator will do this with minimum drift. Next, as you don't want to set the clock after every power cut (or after having it switched off for a while), we'll connect a small battery to the chip, to remember our settings, and to continue counting. For this clock I have chosen the DS1307 from Maxim Integrated. The circuit is based on the specifications in the [manufacturer's datasheet](pdf-files/datasheet-DS1307.pdf). All communications with the chip will be over I2C. The only tricky part with this hardware is the PCB layout around the crystal and chip's oscillator section. No signal lines should cross these zones, unless protected by a ground plane in between.
 
-![RTC circuit](images/RTC-clock-circuit.png)
+![RTC circuit](images/RTC-board-schematic-s.png)  ![RTC pcb](images/RTC-board-pcb-m.png)
 
 `...more on the way, be patient...`
 
