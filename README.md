@@ -75,9 +75,13 @@ The ternary numbers for the clock will have maximum 4 digits (max 3 for the hour
 
 ### Electronics
 
+#### RTC module
+
 One of the key components to build a clock is a basic RTC circuit. This piece of hardware will give you the correct time, and continue counting every second. A crystal driven oscillator will do this with minimum drift. Next, as you don't want to set the clock after every power cut (or after having it switched off for a while), we'll connect a small battery to the chip, to remember our settings, and to continue counting. For this clock I have chosen the [DS1307](pdf-files/datasheet-DS1307.pdf) from Maxim Integrated. The circuit is based on the specifications in the [manufacturer's datasheet](pdf-files/datasheet-DS1307.pdf). All communications with the chip will be over I2C. The only tricky part with this hardware is the [PCB layout](images/RTC-board-pcb.png) around the crystal and chip's oscillator section. No signal lines should cross these zones, unless protected by a ground plane in between.
 
 [![RTC circuit](images/RTC-board-schematic-s.png)](images/RTC-board-schematic.png)      [![RTC pcb](images/RTC-board-pcb-m.png)](images/RTC-board-pcb.png)
+
+#### RGB LED interface board
 
 For the first version of this clock, I have opted for intelligent RGB-LED's as interface. It concerns [WS2812b](pdf-files/datasheet-WS2812B.pdf) LED's which need power and serial data. Each LED is having four connections (+5V, GND, data in, and data out). The µ-controller has to send all data as a long train of bits over only one datapin. Each LED, with its small built-in chip, will strip-off the first frame from data train on its data "in" pin, and transparently push forward all other frames on its data "out" pin. The µ-controller will, as such, produce twelve dataframes for each interface refresh. The twelve LED's, installed in three rows of four, are each having a specific function. The [LED pcb board](images/LED-board-pcb.png) has been designed as single layer. However the [WS2812b](pdf-files/datasheet-WS2812B.pdf) LED's being SMD components, the copper layer has been designed on the component side of the pcb. Depending on the mechanical requirements of your housing, the through-hole components can be mounted on either side of this pcb. It might however be a good idea to bend the capacitors lead 90° in case of mounting on the component side, to limit the overall height.
 
@@ -89,9 +93,13 @@ r3  | second mst | <....... | .......> | second lst
 
 [![LED interface schematic](images/LED-board-schematic-s.png)](images/LED-board-schematic.png)   [![LED interface PCB](images/LED-board-pcb-s.png)](images/LED-board-pcb.png)
 
+#### µ-Controller board
+
+The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega328P.pdf) µ-controller (yes, like the [Arduino UNO](https://www.arduino.cc/)). The choice was pretty obvious for multiple reasons. The design is easy, the IDE is well-known, specific libraries exist for the RTC and RGB LED's, and a hardware interface is available for the I2C protocol. The designed configuration is rather straightforward as well. Around IC2, some standard circuitry can be found. X2, C4 and C5 provide a stable clock for the controller. Reseting the running application can be done by button S1 (and R1). This will however not affect the clock time (stored in the RTC chip), or the alarm settings (stored in the ATmega's EEPROM). L1 and C2 provide smooth powering for the ADC inputs, which we will use for the dusk detection, and the optional color calibration module. CON3 is a so called in-system-programming connector update the application without having to extract the [ATmega328p](pdf-files/datasheet-ATmega328P.pdf) µ-controller. The whole system is powered by a standard USB power supply, to be connected to the micro-USB connector CON2. Optionaly, R1 and LED1 can be fit on the pcb as a power-ON indicator. As a simplified keyboard, S2 and S3 will get 'mode' and 'set' functionality. The required pull-up resistors are integrated in the controller, and set by software. IC1, X1, C1 and BAT1 represent the RTC part of the clock as described [above](#rtc-module).
+
 `...more on the way, be patient...`
 
-### µ-controller code
+### µ-Controller code
 
 `...on the way, be patient...`
 
