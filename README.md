@@ -16,13 +16,17 @@ Anyhow, after having played around with javascript and css for the [web-version]
 
 ## How
 
-A first brainstorm storming session has resulted in a pretty complete [mindmap](docs/project-mindmap.mm) in the [docs folder](docs/).
+A first brainstorm session has resulted in a pretty complete [mindmap](docs/project-mindmap.mm) in the [docs folder](docs/).
 
 ![Project mindmap](images/project-mindmap.png)
 
 Next, a breadboard prototype was build to test the feasibility of the concept. The LED's have been fit in an air-wire frame. Off-the-shelve modules (power supply, Arduino Nano and RTC) have been connected on a breadboard to develop the first version of the application.
 
 [![Breadboard prototype](images/breadboard-proto-s.png)](images/breadboard-proto.png)
+
+After having finished the software development on the breadboard version, dedicated pcb's have been designed for the project :
+- [RGB LED interface board](#rgb-led-interface-board)
+- [µ-Controller board](#µ-controller-board)
 
 `...more on the way, be patient...`
 
@@ -108,9 +112,13 @@ The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega32
 
 ### µ-Controller code
 
+The software has been written in the free [Arduino IDE](https://www.arduino.cc/en/Main/Software), or as [sourcecode](https://github.com/arduino/Arduino/). Two specific libraries are required to integrate the [DS1307 RTC module](https://github.com/adafruit/RTClib), and the [neopixel LED's](https://github.com/adafruit/Adafruit_NeoPixel).
+
 `...on the way, be patient...`
 
 ### Mechanical construction
+
+The housing consists of several layers of lasercut and engraved plexi plates (3 & 6mm).
 
 `...on the way, be patient...`
 
