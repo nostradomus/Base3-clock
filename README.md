@@ -20,14 +20,19 @@ A first brainstorm storming session has resulted in a pretty complete [mindmap](
 
 ![Project mindmap](images/project-mindmap.png)
 
+Next, a breadboard prototype was build to test the feasibility of the concept. The LED's have been fit in an air-wire frame. Off-the-shelve modules (power supply, Arduino Nano and RTC) have been connected on a breadboard to develop the first version of the application.
+
+[![Breadboard prototype](images/breadboard-proto-s.png)](images/breadboard-proto.png)
+
 `...more on the way, be patient...`
 
 ## Progress status
 
  - [x] have a [crazy idea](#why)
  - [x] write the [functional specifications](#how)
- - [x] build a proof-of-concept prototype
- - [ ] design and build the final [electronics](#electronics)
+ - [x] build an air-wire/breadboard [prototype](#how)
+ - [x] design the final [electronics](#electronics)
+ - [ ] build a proof-of-concept for the final [electronics](#electronics)
  - [x] write [code for the µ-controller](#µ-controller-code) respecting best-practices
  - [ ] design and build a [state-of-the-art housing](#mechanical-construction)
  - [ ] write an end-user manual
@@ -119,8 +124,10 @@ When you create your own version, don't forget to send us some nice pictures of 
 
 ## :globe_with_meridians: License
 
-There is no specific license attached to this project.
+There is no specific license attached to this project for personal use.
 
 If you like it, have fun with it (at your own risk of course :-D), and especially, be creative.
 
 Oh, and when using anything from this repository, it is highly appreciated if you mention its origin.
+
+If you would like to use any of my work (or the whole project) for commercial use, just [contact me :email:](http://nostradomus.ddns.net/contactform.html), so we can add the appropriate license, which best fits your business.
