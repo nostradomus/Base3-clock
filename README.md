@@ -111,13 +111,17 @@ The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega32
 
 The software has been written in the free [Arduino IDE](https://www.arduino.cc/en/Main/Software), or as [sourcecode](https://github.com/arduino/Arduino/). Two specific libraries are required to integrate the [DS1307 RTC module](https://github.com/adafruit/RTClib), and the [neopixel LED's](https://github.com/adafruit/Adafruit_NeoPixel).
 
-`...on the way, be patient...`
+`...on the way...`
 
 ### Mechanical construction
 
 The housing consists of several layers of lasercut and engraved plexi plates (3 & 6mm).
 
-`...on the way, be patient...`
+`...on the way...`
+
+### Building instructions
+
+`...on the way...`
 
 ## Contributors
 
