@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17975,7 +17975,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2" value="M3.2"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.2" value="M3.2"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="green-3mm"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="150Ω"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="2k2"/>
 <part name="SUPPLY26" library="supply2" deviceset="+5V" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.2" value="M3.2"/>
