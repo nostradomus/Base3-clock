@@ -162,9 +162,9 @@
 <wire x1="86.335465625" y1="0" x2="88" y2="1.664534375" width="0" layer="20" curve="90"/>
 <wire x1="88" y1="1.664534375" x2="88" y2="48.05469375" width="0" layer="20"/>
 <wire x1="88" y1="48.05469375" x2="85.55469375" y2="50.5" width="0" layer="20" curve="90"/>
-<text x="77.81289375" y="39.542721875" size="2.54" layer="16" rot="MR270">2017/004-V01</text>
-<text x="73.32473125" y="28.534375" size="3" layer="16" rot="MR270">© Carl</text>
-<text x="70.62215625" y="30.507934375" size="2.1844" layer="16" rot="MR90">Ternary Clock</text>
+<text x="79" y="50.5" size="3.81" layer="16" rot="MR270">2017/004-V01</text>
+<text x="84" y="32" size="3.81" layer="16" rot="MR270">© Carl</text>
+<text x="70" y="17" size="3.81" layer="16" rot="MR90">Ternary Clock</text>
 <circle x="4" y="4" radius="2.605821875" width="1.016" layer="16"/>
 <circle x="84" y="4" radius="2.605821875" width="1.016" layer="16"/>
 <circle x="84" y="44" radius="2.605821875" width="1.016" layer="16"/>
@@ -195,6 +195,9 @@
 <rectangle x1="57.304940625" y1="30.7594" x2="60.84061875" y2="32.68471875" layer="16"/>
 <rectangle x1="59.12358125" y1="28.98901875" x2="60.995559375" y2="31.904940625" layer="16"/>
 <rectangle x1="64.9859" y1="10.2235" x2="69.43598125" y2="13.30198125" layer="16"/>
+<text x="80.2281" y="32" size="3.81" layer="26" rot="R270">© Carl</text>
+<text x="73.8125375" y="17" size="3.81" layer="26" rot="R90">Ternary Clock</text>
+<text x="75.103640625" y="50.5" size="3.81" layer="26" rot="R270">2017/004-V01</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -3328,9 +3331,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.76530625" y="48.8879" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="10.03098125" y="44.396896875" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R1" library="rcl" package="0207/7" value="150Ω" x="17.0251" y="47.89955625" smashed="yes">
-<attribute name="NAME" x="14.0025" y="45.0725375" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="14.7391" y="47.34075625" size="1.27" layer="27" ratio="10"/>
+<element name="R1" library="rcl" package="0207/7" value="2k2" x="17.0251" y="47.89955625" smashed="yes">
+<attribute name="NAME" x="13.7739" y="45.12841875" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="15.8821" y="47.22391875" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="H4" library="holes" package="3,2" value="M3.2" x="4" y="44"/>
 <element name="CON1" library="con-lstb" package="MA03-1" value="to LEDs" x="57" y="7" smashed="yes" rot="R180">
@@ -3362,8 +3365,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="9.51685625" y="17.83028125" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R2" library="resistor" package="0207/7" value="10k" x="21.619965625" y="3.9441" smashed="yes">
-<attribute name="NAME" x="18.648165625" y="3.21004375" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="21.744425" y="3.2837" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="18.419565625" y="1.322825" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="20.2610625" y="3.342121875" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="S1" library="switch-omron" package="B3F-10XX" value="RESET" x="12.811234375" y="7.21308125" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="-4.2905875" y="26.374840625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3374,12 +3377,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="9.9395375" y="0.4719125" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R3" library="resistor" package="0207/7" value="10k" x="13.740884375" y="29.557465625" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.862046875" y="30.192465625" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="16.882865625" y="30.22294375" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="12.747746875" y="32.13810625" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="15.33854375" y="30.22294375" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R4" library="resistor" package="0207/7" value="10k" x="11.231365625" y="26.895540625" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.3499875" y="27.530540625" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="14.4266875" y="27.561021875" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="10.40586875" y="25.4706" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="12.882365625" y="27.561021875" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="CON3" library="avr-7" package="AVR-ISP-6" value="AVR-ISP" x="59.638678125" y="19.1434625" smashed="yes">
 <attribute name="NAME" x="53.529978125" y="22.0263625" size="1.27" layer="25" ratio="10"/>
@@ -3446,8 +3449,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.693365625" y="27.05861875" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R5" library="resistor" package="0207/7" value="10k" x="26.9671875" y="32.852359375" smashed="yes">
-<attribute name="NAME" x="23.893784375" y="32.16401875" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="27.299928125" y="32.24021875" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="23.495003125" y="30.391096875" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="25.585428125" y="32.1843375" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="LDR1" library="base3clock" package="LDR" value="LDR" x="19.552909375" y="33.30956875" smashed="yes" rot="R90"/>
 <element name="CON5" library="pinhead" package="1X02" value="Snooze" x="48.407315625" y="11.8745"/>
