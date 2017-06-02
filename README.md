@@ -29,6 +29,10 @@ After having finished the software development on the breadboard version, dedica
 - [µ-Controller board](#µ-controller-board)
 - [stand-alone RTC module](#rtc-module) with square wave output option
 
+The first pcb prototype has been assembled, to serve as a model for the final design of the [plexi lasercut-files](laser-cutting-files/) for the housing.
+
+[![Controller side - assembled prototype pcb](images/pcb_proto-controller_view-s.png)](images/pcb_proto-controller_view-m.png) ![LED side - assembled prototype pcb](images/pcb_proto-LED_view-s.png)
+
 ## Progress status
 
  - [x] have a [crazy idea](#why)
@@ -111,13 +115,9 @@ The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega32
 
 The software has been written in the free [Arduino IDE](https://www.arduino.cc/en/Main/Software), or as [sourcecode](https://github.com/arduino/Arduino/). Two specific libraries are required to integrate the [DS1307 RTC module](https://github.com/adafruit/RTClib), and the [neopixel LED's](https://github.com/adafruit/Adafruit_NeoPixel).
 
-`...on the way...` 
-
 ### Mechanical construction
 
-The housing consists of several layers of lasercut and engraved plexi plates (3 & 6mm).
-
-`...on the way...` 
+The housing consists of several layers of lasercut and engraved plexi plates (3 & 6mm). The required files to cut out these plexi sheets are available both in [.cdr or CorelDraw format](laser-cutting-files/) or in [pdf format](pdf-files/). A legend on which color to use for which action (contour cutting, inside cut-outs, engraving) is available as an instruction in the [readme document](laser-cutting-files/README.md) which is accompanying the files.
 
 ### Building instructions
 
