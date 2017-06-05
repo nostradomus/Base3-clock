@@ -119,6 +119,14 @@ As the application has been written as an Arduino sketch, there are various ways
 
 [![Programmer setup](images/programmer-setup-s.png)](images/programmer-setup-m.png)
 
+So far, three versions of the firmware are available in the [source folder](source/) :
+
+version | name                                                                                  | description
+--------|---------------------------------------------------------------------------------------|----------------------------------------------------------
+v1.0a   | [ternary_clock_rainbow_alarm.ino](source/ternary_clock_rainbow_alarm.ino)             | base version with mood-light alarm animation
+v1.0b   | [ternary_clock_twinklingstar_alarm.ino](source/ternary_clock_twinklingstar_alarm.ino) | base version with mutant LED alarm animation
+v1.1    | [ternary_clock.ino](source/ternary_clock.ino)                                         | latest release with selector function for alarm animation
+
 ### Mechanical construction
 
 The housing consists of several layers of lasercut and engraved plexi plates (3 & 6mm). The required files to cut out these plexi sheets are available both in [.cdr or CorelDraw format](laser-cutting-files/) or in [pdf format](pdf-files/). A legend on which color to use for which action (contour cutting, inside cut-outs, engraving) is available as an instruction in the [readme document](laser-cutting-files/README.md) which is accompanying the files.
