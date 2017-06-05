@@ -1,3 +1,5 @@
+## Firmware
+
 This folder contains the firmware source code related to the base3 clock project :
 
 So far, three versions of the firmware have been released :
