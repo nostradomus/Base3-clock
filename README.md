@@ -42,7 +42,7 @@ The first pcb prototype has been assembled, to serve as a model for the final de
  - [x] build a proof-of-concept for the final [electronics](#electronics)
  - [x] write [code for the µ-controller](#µ-controller-code) respecting best-practices
  - [ ] design and build a [state-of-the-art housing](#mechanical-construction)
- - [ ] write an end-user manual
+ - [ ] write an [end-user manual](https://github.com/nostradomus/Base3-clock/wiki)
 
 ## Technical details
 
