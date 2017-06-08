@@ -1,6 +1,6 @@
-### BOM - bill of materials
+## BOM - bill of materials
 
-#### µ-controller board
+### µ-controller board
 
 Part     | Value                                             | Package      | Description  
 -------- | ------------------------------------------------- | ------------ | ------------------------------------------------------------
@@ -31,7 +31,7 @@ S1       | momentary                                         | 6x6x6mm      | mo
 S2,3     | momentary                                         | 6x6x16mm     | momentary tact push button, button shaft length 16mm                        
 S2b,3b   | cap                                               | 6x6          | tact push button caps (white)                        
 
-#### LED-board-pcb
+### LED-board-pcb
 
 Part    | Value                                        | Package      | Description  
 ------- | -------------------------------------------- | ------------ | -----------------------------------------------------
