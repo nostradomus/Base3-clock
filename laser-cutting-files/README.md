@@ -2,9 +2,9 @@ This folder contains all files required to laser-cut and engrave the plexi plate
 
 For the initial built, both 3 and 6 mm plexi material has been used.
 
-When using another thickness, the length of the srews and bolts should be adapted.
+When using other thicknesses, the length of the srews, bolts and buttons should be adapted.
 
-The .cdr-files have been created with CorelDraw, and have been optimized for [Trotec laser and engraving machines](https://www.troteclaser.com/en/). Several specific RGB-colors (compatible with this machine's driver) have been used :
+The .cdr-files have been created with CorelDraw (X6), and have been optimized for [Trotec laser and engraving machines](https://www.troteclaser.com/en/). Several specific RGB-colors (compatible with this machine's driver) have been used :
 
 color  | RGB-code    | function             | comments
 -------|-------------|----------------------|---------
