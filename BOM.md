@@ -1,4 +1,4 @@
-## BOM - bill of materials
+# BOM - bill of materials (trough-hole version)
 
 ### µ-controller board
 
@@ -40,3 +40,34 @@ C1-12   | 100nF                                        | C050-025X075 | capacito
 C13     | 10µF/16V                                     | E2-5         | polarized capacitor (radial)                                          
 LED1-12 | [WS2812b](/pdf-files/datasheet-WS2812B.pdf)  | 5050         | intelligent RGB LED's
 CON1,2  | 3-pin                                        | SIL03        | pin headers to connect the µ-controller and LED board
+
+# BOM - bill of materials (SMD version)
+
+### Main board
+
+Part     | Value                                                | Package      | Description  
+-------- | ---------------------------------------------------- | ------------ | ------------------------------------------------------------
+R1       | 2.2kΩ                                                | 1206         | resistor                                            
+R2,3,4,5 | 10kΩ                                                 | 1206         | resistor                                            
+R6       | 4.7kΩ                                                | 1206         | resistor                                            
+LDR1     | [PGM5537](/pdf-files/datasheet-LDR-pgm5537.pdf)      | 0604/4       | light dependent resistor                                           
+C1,15    | 100nF                                                | 1206         | capacitor                                           
+C16,17   | 22pF                                                 | 1206         | capacitor                                 
+C18      | 10µF/16V                                             | B 4.0/5.4    | polarized capacitor (radial)                                          
+L1       | 10µH                                                 | 1206         | inductor                                            
+D1       | 1N5819                                               | SMA-DO214AC  | resistor                                            
+LED1-12  | [WS2812b](/pdf-files/datasheet-WS2812B.pdf)          | 5050         | intelligent RGB LED's
+LED13    | 3mm green                                            | 1206         | LED                        
+X1       | 32.768kHz                                            | TC38H        | RTC clock crystal                                            
+X2       | 16MHz                                                | SM49         | CPU clock crystal                                            
+IC1      | [DS1307+](/pdf-files/datasheet-DS1307.pdf)           | SOIC8        | I2C-Bus CLOCK/CALENDAR                                                            
+IC2      | [ATmega328P-AU](/pdf-files/datasheet-ATmega328P.pdf) | TQFP-32      | ATmega328P-AU µ-controller             
+BAT1     | CR1220                                               | CR1220       | SMD battery holder (CR1220)
+BAT1b    | CR1220-3V                                            | CR1220       | 3 volt lithium battery
+CON1     | vertical µUSB                                        | µUSB-V-B     | vertical micro USB connector (type B) with power pins only
+CON2     | 2x3 pin-header                                       | 2x3          | ICSP, AVR ISP-6 Serial Programming Header (optional)
+CON3     | 3-pin                                                | SIL03        | pin header to connect RX and TX for the serial communication
+S1       | momentary                                            | 6x6x6mm      | momentary tact push button, button shaft length 6mm                        
+S2,3     | momentary                                            | 6x6x8mm      | momentary tact push button, button shaft length 8mm                        
+S2b,3b   | cap                                                  | 6x6          | tact push button caps (white)                        
+S4       | momentary                                            | 6x6x6mm-90   | 90° bent momentary tact push button, button shaft length 8mm                        
