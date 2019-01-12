@@ -145,10 +145,10 @@ When you create your own version, don't forget to send us some nice pictures of 
 
 ## :globe_with_meridians: License
 
-There is no specific license attached to this project for personal use.
+At this moment, there is no specific license attached to this project.
 
-If you like it, have fun with it (at your own risk of course :-D), and especially, be creative.
+So, today, if you like it, have fun with it (at your own risk of course :-D), and especially, be creative.
 
 Oh, and when using anything from this repository, it is highly appreciated if you mention its origin.
 
-If you would like to use any of my work (or the whole project) for commercial use, just [contact me :email:](http://nostradomus.ddns.net/contactform.html), so we can add the appropriate license, which best fits your business.
+If you would like to use any of this work (or the whole project) for commercial use, first [contact us :email:](http://nostradomus.ddns.net/contactform.html), so we can add the appropriate license, which best fits your business.
