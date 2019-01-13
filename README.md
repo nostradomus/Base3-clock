@@ -36,6 +36,10 @@ The first pcb prototype has been assembled, to serve as a model for the final de
 
 [![Controller side - assembled prototype pcb](images/pcb_proto-controller_view-s.png)](images/pcb_proto-controller_view-m.png) ![LED side - assembled prototype pcb](images/pcb_proto-LED_view-s.png)
 
+For the final version, an SMD-version has been designed, including several improvements. As nice-to-have feature, a sound-driven snooze function has been added.
+
+![Controller side - assembled SMD pcb](images/pcb_smd-front-s.png) ![LED side - assembled SMD pcb](images/pcb_smd-rear-s.png)
+
 ## Progress status
 
  - [x] have a [crazy idea](#why)
