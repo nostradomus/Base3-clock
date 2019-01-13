@@ -1,7 +1,7 @@
 # :clock10: µ-controller based Ternary clock with colorful read-out
 ![](https://img.shields.io/badge/project%20status-publication%20in%20progress-lightgrey.svg)
 
-![Front view - first clock](images/clockfront-s.png) ![Rear view - first clock](images/clockback-s.png)
+![Front view - prototype clock](images/clockfront-s.png) ![Rear view - prototype clock](images/clockback-s.png)
 
 ## What
 
